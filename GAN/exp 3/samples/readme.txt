@@ -1,0 +1,1 @@
+From each digit there are 2 samples, generated from the same phase. 
