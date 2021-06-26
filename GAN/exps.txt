@@ -1,0 +1,4 @@
+exp1 - amplitude only generator, conditioned by label only.
+exp2 - amplitude and phase generator, conditioned by label only.
+exp3 - amplitude only generator, conditioned by label and phase.
+exp4 - amplitude only generator, conditioned by label and phase, with regularization.
