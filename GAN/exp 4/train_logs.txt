@@ -1,0 +1,28 @@
+Namespace(b1=0.5, b2=0.999, batch_size=64, channels=1, clip_value=0.01, dataset='digits', img_size=128, latent_dim=16384, lr=0.0002, n_cpu=8, n_critic=5, n_epochs=150, sample_interval=400)
+True
+[Epoch 0/150] [Batch 421/422] [D loss: -56.773791] [G loss: -47.167366]
+[Epoch 1/150] [Batch 421/422] [D loss: -9.074105] [G loss: -3.611209]
+[Epoch 2/150] [Batch 421/422] [D loss: -8.229390] [G loss: 1.669528]
+[Epoch 3/150] [Batch 421/422] [D loss: -8.048170] [G loss: 12.544403]
+[Epoch 4/150] [Batch 421/422] [D loss: -7.562925] [G loss: 15.147724]
+[Epoch 5/150] [Batch 421/422] [D loss: -7.222887] [G loss: 14.241065]
+[Epoch 6/150] [Batch 421/422] [D loss: -6.935541] [G loss: 11.691972]
+[Epoch 7/150] [Batch 421/422] [D loss: -6.475218] [G loss: 9.760821]
+[Epoch 8/150] [Batch 421/422] [D loss: -6.444843] [G loss: 8.937276]
+[Epoch 9/150] [Batch 421/422] [D loss: -6.414152] [G loss: 7.763872]
+[Epoch 10/150] [Batch 421/422] [D loss: -6.145361] [G loss: 5.430509]
+[Epoch 11/150] [Batch 421/422] [D loss: -6.230721] [G loss: 4.535495]
+[Epoch 12/150] [Batch 421/422] [D loss: -5.890541] [G loss: 2.910711]
+[Epoch 13/150] [Batch 421/422] [D loss: -5.987757] [G loss: 3.214066]
+[Epoch 14/150] [Batch 421/422] [D loss: -5.858221] [G loss: -0.005020]
+[Epoch 15/150] [Batch 421/422] [D loss: -5.913882] [G loss: 0.428817]
+[Epoch 16/150] [Batch 421/422] [D loss: -5.907773] [G loss: 1.010718]
+[Epoch 17/150] [Batch 421/422] [D loss: -5.761957] [G loss: 0.616153]
+[Epoch 18/150] [Batch 421/422] [D loss: -5.919648] [G loss: -0.593849]
+[Epoch 19/150] [Batch 421/422] [D loss: -6.025281] [G loss: 0.073382]
+[Epoch 20/150] [Batch 421/422] [D loss: -5.578848] [G loss: -0.340423]
+[Epoch 21/150] [Batch 421/422] [D loss: -5.586106] [G loss: -0.872664]
+[Epoch 22/150] [Batch 421/422] [D loss: -5.897692] [G loss: -0.596978]
+[Epoch 23/150] [Batch 421/422] [D loss: -6.178394] [G loss: -0.088198]
+
+Process finished with exit code -1
