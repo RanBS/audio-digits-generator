@@ -1,0 +1,13 @@
+"C:\Ran\Limudim\Homework\Project B\baseenv\Scripts\python.exe" "C:/Ran/Limudim/Homework/Deep Learning/githubProject/inception_scores_metrics.py"
+exp 1 Frechet Inception Score: 354.7119261839097
+exp 1 Diversity Score: 5.413633
+exp 2 Frechet Inception Score: 353.40443039572835
+exp 2 Diversity Score: 8.706381
+exp 3 Frechet Inception Score: 358.8735510415135
+exp 3 Diversity Score: 1.5577881
+exp 4 Frechet Inception Score: 358.1007176586323
+exp 4 Diversity Score: 2.0402238
+exp vae Frechet Inception Score: 360.2686114176226
+exp vae Diversity Score: 0.1211472
+
+Process finished with exit code 0
