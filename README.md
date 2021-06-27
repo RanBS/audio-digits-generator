@@ -75,7 +75,7 @@ Then, it should be placed inside the right sub-folders at the `dataset` director
 |`train_spectograms`| .npy arrays with 2-channels (amplitude & phase) of the train set|
 |`test_spectograms_amplitude`| .npy arrays with 1-channel (amplitude only) of the test set|
 |`train_spectograms_amplitude`| .npy arrays with 1-channel (amplitude only) of the train set|
-|`data_for_metrics`| Train the model|
+|`data_for_metrics`| Contains a sub-folder for each exp and one for the real data. Each of these are seperated to folders by label|
 
 ## References
 * [Pytorch Conditional WGAN with Gradient Penalty](https://github.com/gcucurull/cond-wgan-gp) by [Guillem Cucurull](https://github.com/gcucurull)
