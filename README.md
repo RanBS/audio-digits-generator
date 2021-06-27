@@ -46,6 +46,7 @@ In addition to the generative models, we trained a digit-classifier based on the
 |`pre_processing.py`| Converting .wav files to .npy for fitting the networks|
 |`weights.txt`| Link to download weights|
 |`metrics results for the exps.txt`| The performance of our trained generative models|
+|`dataset directory`| The datasets required for training and evaluating the experiments (partial only)|
 
 For each experiment, the following files are provided:
 
@@ -59,14 +60,25 @@ For each experiment, the following files are provided:
 |`final_results_example.png`| 10 spectogram amplitudes generated from each label (each column is a specific label)|
 |`train_log.txt`| The training progress|
 
+The datasets (used for training the models, generating samples for conditioned GAN exp 3 and exp 4 and evaluting the results) should be seperated as in the provided `dataset` directory (which is partial only) - see explantion in [How-to-use](#How-to-use).
 
 ## How-to-use
 
+For running the models, one need to download the weights for the model from the link specified in `weights.txt`. The weights has to placed inside the relevant `exp ` directory, with the same name as in the link.
 
+The datasets can be found at [this github](https://github.com/avikhemani/CS230Project), and need to be pre-processed (a.k.a converted to .npy) using `pre_processing.py`.
+Then, it should be placed inside the right sub-folders at the `dataset` directory:
+
+|Sub-Folder         | Purpsoe |
+|----------------------|------|
+|`test_spectograms`| .npy arrays with 2-channels (amplitude & phase) of the test set|
+|`train_spectograms`| .npy arrays with 2-channels (amplitude & phase) of the train set|
+|`test_spectograms_amplitude`| .npy arrays with 1-channel (amplitude only) of the test set|
+|`train_spectograms_amplitude`| .npy arrays with 1-channel (amplitude only) of the train set|
+|`data_for_metrics`| Train the model|
 
 ## References
-* [PyTorch Agent Net: reinforcement learning toolkit for pytorch](https://github.com/Shmuma/ptan) by [Max Lapan](https://github.com/Shmuma)
-* Nir Levine, Tom Zahavy, Daniel J. Mankowitz, Aviv Tamar, Shie Mannor [Shallow Updates for Deep Reinforcement Learning](https://arxiv.org/abs/1705.07461), NIPS 2017
-
+* [Pytorch Conditional WGAN with Gradient Penalty](https://github.com/gcucurull/cond-wgan-gp) by [Guillem Cucurull](https://github.com/gcucurull)
+* Avi Khemani [Spoken Digit Recognition (Speech Recognition)](https://github.com/avikhemani/CS230Project), 2020
 
 
